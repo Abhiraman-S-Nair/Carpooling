@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/signup.css">
+  <title>Carpooling Service - Sign Up</title>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>Carpooling Service</h1>
+  </header>
+
+  <main>
+    <form id="signupForm">
+      <label for="username">User Name:</label>
+      <input type="text" id="username" name="username" required>
+
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Phone:</label>
+      <input type="text" id="phone" name="phone">
+
+      <label for="mobileNo">Mobile Number:</label>
+      <input type="text" id="mobileNo" name="mobileNo">
+
+      <label for="gender">Gender:</label>
+      <select id="gender" name="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <!-- Add more options if needed -->
+      </select>
+
+      <label for="userType">User Type:</label>
+      <select id="userType" name="userType">
+        <option value="driver">Driver</option>
+        <option value="rider">Rider</option>
+      </select>
+
+      <button type="submit">Sign Up</button>
+    </form>
+  </main>
+</div>
+
+<script src="scripts/signup.js"></script>
+</body>
+</html>
